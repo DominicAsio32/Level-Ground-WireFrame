@@ -30,18 +30,16 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-    border: 2px solid green;
+    border: 2px solid yellow;
     background-color: rgb(102, 118, 138);
 }
-
-
 
 /******************************************
 /* ADDITIONAL STYLES
 /*********/
 
 header div {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     float: left;
 
 }
@@ -49,4 +47,8 @@ header div {
 header div,
 .veryTopSection {
     background-color: rgb(102, 118, 138);
+}
+
+.veryTopSection {
+    padding-top: 20px;
 }
