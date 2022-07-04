@@ -23,6 +23,7 @@
 
 body {
     width: 1850px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -30,7 +31,7 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     background-color: rgb(102, 118, 138);
 }
 
@@ -39,16 +40,42 @@ header {
 /*********/
 
 header div {
-    /* border: 2px solid red; */
+    /*  border: 2px solid red; */
     float: left;
-
+    padding-top: 10px;
 }
 
 header div,
 .veryTopSection {
     background-color: rgb(102, 118, 138);
+    color: rgba(255, 255, 255, 1);
 }
 
+.headerLinksTopLeft a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.logo {
+    padding-right: 700px;
+    padding-left: 750px;
+}
+
+/* These blocks will stylize the 'veryTopSection' */
 .veryTopSection {
     padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.veryTopSection div {
+    text-align: center;
+}
+
+.veryTopSection>p {
+    padding: 0 30px;
+}
+
+/* This section will stylize the 'midTopSection */
+.midTopSection {
+    text-align: center;
 }
