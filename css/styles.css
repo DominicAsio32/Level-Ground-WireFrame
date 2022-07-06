@@ -79,3 +79,10 @@ header div,
 .midTopSection {
     text-align: center;
 }
+
+.veryTopSection,
+.midTopSection,
+.midBottomSection,
+.verBottomSection {
+    border: 3px solid blue;
+}
