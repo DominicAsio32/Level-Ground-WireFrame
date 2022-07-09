@@ -79,6 +79,8 @@ header div,
 /* This section will stylize the 'midTopSection */
 .midTopSection {
     text-align: center;
+    padding: 250px 600px;
+    font-size: 20px;
 }
 
 .veryTopSection,
