@@ -32,7 +32,6 @@ body {
 .midBottomSection,
 .veryBottomSection,
 footer {
-    border: 3px solid blue;
     width: 100%;
     height: 750px;
 }
@@ -74,8 +73,16 @@ header div,
 
 /* These blocks will stylize the 'veryTopSection' */
 .veryTopSection {
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding: 100px;
+}
+
+.veryTopSection>div>h1 {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.veryTopSection div>p {
+    font-size: 20px;
 }
 
 .veryTopSection div {
