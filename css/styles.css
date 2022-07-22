@@ -64,11 +64,14 @@ header div,
 .headerLinksTopLeft a {
     padding-right: 10px;
     padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .logo {
     padding-right: 700px;
-    padding-left: 750px;
+    padding-left: 730px;
 }
 
 /* These blocks will stylize the 'veryTopSection' */
