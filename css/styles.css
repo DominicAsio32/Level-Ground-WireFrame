@@ -22,8 +22,18 @@
 /*******************************************/
 
 body {
-    width: 1850px;
+    width: 1840px;
+    height: 2500px;
     font-family: 'Roboto', sans-serif;
+}
+
+.veryTopSection,
+.midTopSection,
+.midBottomSection,
+.veryBottomSection,
+footer {
+    width: 100%;
+    height: 750px;
 }
 
 
@@ -54,17 +64,28 @@ header div,
 .headerLinksTopLeft a {
     padding-right: 10px;
     padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .logo {
     padding-right: 700px;
-    padding-left: 750px;
+    padding-left: 730px;
 }
 
 /* These blocks will stylize the 'veryTopSection' */
 .veryTopSection {
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding: 100px;
+}
+
+.veryTopSection>div>h1 {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.veryTopSection div>p {
+    font-size: 20px;
 }
 
 .veryTopSection div {
@@ -78,11 +99,77 @@ header div,
 /* This section will stylize the 'midTopSection */
 .midTopSection {
     text-align: center;
+    padding: 250px 600px;
+    font-size: 20px;
 }
 
-.veryTopSection,
-.midTopSection,
-.midBottomSection,
-.verBottomSection {
-    border: 3px solid blue;
+
+/* These styling blocks will midBottomSection */
+.midBottomSection {
+    padding: 0 280px;
+    background-color: rgba(219, 223, 226, 1);
+}
+
+.midBottomSection aside {
+    width: 100%;
+    height: 260px;
+    background-color: rgba(102, 118, 138, 1);
+}
+
+.midBottomSection div {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 100px 80px;
+}
+
+.midBottomSection .btn {
+    margin-top: 30px;
+    padding: 15px 50px;
+    font-weight: 600;
+    background-color: rgba(219, 223, 226, 1);
+    border: 1px solid black;
+}
+
+/* This section will style the veryBottomSection */
+
+.veryBottomSection {
+    text-align: center;
+    padding: 250px 600px;
+    font-size: 20px;
+}
+
+.veryBottomSection .btn {
+    margin-top: 30px;
+    padding: 15px 50px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid black;
+}
+
+/* This section will style the footer */
+footer {
+    background-color: rgba(22, 31, 42, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+
+footer div {
+    padding: 5px;
+}
+
+footer>.additionalSiteLinks,
+footer>.businessLocation {
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+}
+
+footer .businessLocation {
+    text-align: right;
+}
+
+
+.taxInfo {
+    border-top: 1px solid rgba(255, 255, 255, 1);
 }
